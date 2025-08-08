@@ -1,0 +1,28 @@
+/* ---- Global base (AntD ile light tema) ---- */
+:root {
+  color-scheme: light;          /* sadece light */
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background: #f7f9fb;          /* istersen #fff */
+  color: #1f1f1f;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* Link renkleri (AntD’ye yakın) */
+a { color: #1677ff; text-decoration: none; }
+a:hover { color: #0958d9; }
+
+/* AntD butonları kullanılıyor; fazla oynamaya gerek yok */
+button { font-family: inherit; }
+
+/* Ekstra utility'lerin varsa buraya ekle */
